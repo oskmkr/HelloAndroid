@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_login">Login</string>
+    <string name="action_room_list">RoomList</string>
+    <string name="webview_default_text">this is webview</string>
+    <string name="go_button">GO</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="default_url">http://m.naver.com</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_room">RoomActivity</string>
+    <string name="title_activity_room_list">RoomListActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="nickname_input_notice">닉네임을 입력해주세요</string>
+    <string name="nickname_default">oskm</string>
+    <string name="nickname_submit">확인</string>
+    <string name="title_activity_widget_test">WidgetTestActivity</string>
+    <string name="title_activity_widget_activity2">WidgetActivity2</string>
+    <string name="title_activity_date_time_widget_test">DateTimeWidgetTestActivity</string>
+    <string name="emailaddress">oskmkr@naver.com</string>
+    <string name="webadress">http://www.naver.com</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="msg_send_btn">Send</string>
+    <string name="msg_input_hint">input send message</string>
+
+</resources>
