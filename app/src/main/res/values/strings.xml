@@ -12,7 +12,7 @@
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="default_url">http://m.naver.com</string>
+    <string name="default_url">http://54.255.166.109:8080/eventList</string>
     <string name="title_activity_intro">IntroActivity</string>
     <string name="title_activity_room">RoomActivity</string>
     <string name="title_activity_room_list">RoomListActivity</string>
@@ -28,5 +28,9 @@
     <string name="title_activity_camera">CameraActivity</string>
     <string name="msg_send_btn">Send</string>
     <string name="msg_input_hint">input send message</string>
+    <string name="title_activity_movie_recoder">MovieRecoderActivity</string>
+    <string name="title_activity_sound_recorder">SoundRecorder</string>
+    <string name="title_activity_video_record">VideoRecordActivity</string>
+    <string name="title_activity_event_list">EventListActivity</string>
 
 </resources>

@@ -54,7 +54,6 @@ public class RoomActivity extends Activity {
             }
         };
 
-
         new AsyncTask<Void, Void, Void>() {
             @Override
             protected Void doInBackground(Void... params) {
@@ -71,7 +70,6 @@ public class RoomActivity extends Activity {
                 return null;
             }
         }.execute(null, null);
-
 
         Button msgSendButton = (Button) findViewById(R.id.msgSendBtn);
 
@@ -110,7 +108,6 @@ public class RoomActivity extends Activity {
 
 
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

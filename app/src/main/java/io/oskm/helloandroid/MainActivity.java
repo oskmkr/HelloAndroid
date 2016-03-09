@@ -181,7 +181,8 @@ public class MainActivity extends Activity {
         WebSettings setting = webView.getSettings();
         setting.setJavaScriptEnabled(true);
         setting.setBuiltInZoomControls(true);
-        webView.loadUrl("http://m.naver.com");
+
+        webView.loadUrl(getResources().getString(R.string.default_url));
 
     }
 

@@ -26,10 +26,6 @@
         <activity
             android:name=".chat.RoomActivity"
             android:label="@string/title_activity_room" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".RoomListActivity"
@@ -41,6 +37,7 @@
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
                 <category android:name="io.oskm.helloandroid.gcm" />
             </intent-filter>
         </receiver>
@@ -54,7 +51,6 @@
         <activity
             android:name=".widget.WidgetTestActivity"
             android:label="@string/title_activity_widget_test" >
-
         </activity>
         <activity
             android:name=".widget.TextFieldWidgetTestActivity"
@@ -67,7 +63,29 @@
         <activity
             android:name=".camera.CameraActivity"
             android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name=".camera.MovieRecoderActivity"
+            android:label="@string/title_activity_movie_recoder" >
+        </activity>
+        <activity
+            android:name=".camera.SoundRecorder"
+            android:label="@string/title_activity_sound_recorder" >
+        </activity>
+        <activity
+            android:name=".camera.VideoRecordActivity"
+            android:label="@string/title_activity_video_record" >
+        </activity>
+        <activity
+            android:name=".EventListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_event_list"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
@@ -85,6 +103,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>
