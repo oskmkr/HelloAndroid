@@ -16,6 +16,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -269,12 +270,14 @@ public class EventListActivity extends Activity {
 
     private void initializeWebView() {
         webView = (WebView) findViewById(R.id.webView);
-        //webView.setWebChromeClient(new WebChromeClient());
-        webView.setWebViewClient(new WebViewClient());
+        webView.setWebChromeClient(new WebChromeClient());
+        //webView.setWebViewClient(new WebViewClient());
+
 
         WebSettings setting = webView.getSettings();
         setting.setJavaScriptEnabled(true);
-        setting.setBuiltInZoomControls(true);
+        //setting.set
+        //setting.setBuiltInZoomControls(true);
 
         webView.loadUrl(getResources().getString(R.string.default_url));
 

@@ -21,7 +21,7 @@ public class IntroActivity extends Activity {
     private Runnable iRun = new Runnable() {
         @Override
         public void run() {
-            Intent i = new Intent(IntroActivity.this, MainActivity.class);
+            Intent i = new Intent(IntroActivity.this, EventListActivity.class);
             startActivity(i);
             finish();
         }
